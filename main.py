@@ -9,3 +9,9 @@ lbl1.place(x=50,y=50)
 
 lbl2 = Label(window,text="Enter 2nd Number: ")
 lbl2.place(x=50,y=100)
+
+t1 = Entry()
+t1.place(x=180,y=50)
+
+t2 = Entry()
+t2.place(x=180,y=100)
