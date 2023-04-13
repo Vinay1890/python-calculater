@@ -57,3 +57,11 @@ def div():
 
 b4= Button(window, text="Divide",command=add)
 b4.place(x=320,y=200)
+
+
+def clear():
+  t1.delete(0,END)
+  t2.delete(0,END)
+  t3.delete(0,END)
+b5= Button(window, text="Clear",command=clear)
+b5.place(x=180,y=250)  
