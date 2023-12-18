@@ -75,4 +75,3 @@ def clear():
 
 b5 = Button(window, text="Clear", command=clear)
 b5.place(x=180, y=250)
-x = 6
